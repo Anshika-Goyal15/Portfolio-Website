@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+
+        <!---<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Quicksand&display=swap" rel="stylesheet">--->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <!--header section-->
+
+        <header>
+            <div class="user">
+                <img src="MMP_3372.jpg" alt="">
+                <h2 class="name">Anshika Goyal</h2>
+                <p class="post">Full Stack Enthusiast</p>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <!--home section-->
+
+        <section class="home" id="home">
+            <h3>HI THERE !</h3>
+            <h1>I'M <span>Anshika Goyal</span></h1>
+            <p>I'M a Third year Under Graduate pursuing Bachelor Of Engineering in Computer Science from Chitkara University. I am a hardworking person and a fast learner.</p>
+            <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+        </section>
+
+        <!--About section-->
+
+        <section class="about" id="about">
+            <h1 class="heading"><span> About </span> Me </h1>
+            <div class="row">
+                <div class="info">
+                    <h3><span>name : </span> Anshika Goyal</h3>
+                    <h3><span>age : </span> 20 </h3>
+                    <h3><span>qualification : </span> Under Graduate </h3>
+                    <h3><span>Currently Working as a  : </span> Student </h3>
+                    <a href="#"><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+                </div>
+                <div class="counter">
+
+                    <div class="box">
+                        <span>2+</span>
+                        <h4>Reputed Society Member</h4>
+                    </div>
+
+                    <div class="box">
+                        <span>8+</span>
+                        <h4>Small Projects completed</h4>
+                    </div>
+
+                    <div class="box">
+                        <span>20+</span>
+                        <h4>Awards in Academics</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Education Section-->
+
+        <section class="education" id="education">
+            <h1 class="heading"> My <span> Education </span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2018</span>
+                    <h3>Secondary School Certification</h3>
+                    <p>Passed Class 10 with 98% from Nam Dev Public School , Gangoh</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2020</span>
+                    <h3>High School Certification</h3>
+                    <p>Passed Class 12 with 97.6% from SD Public School , Jagadhri</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2020-2024</span>
+                    <h3>Under Graduation Program</h3>
+                    <p>Pursuing BE CSE from Chitkara University , Rajpura</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Portfolio section-->
+        
+        <section class="portfolio" id="portfolio">
+            <h1 class="heading"> My <span> Portfolio </span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="a3.webp" alt="Image1">
+                </div>
+
+                <div class="box">
+                    <img src="a2.png" alt="Image2">
+                </div>
+                
+                <div class="box">
+                    <img src="b.jfif" alt="Image3">
+                </div>
+
+                <div class="box">
+                    <img src="c.jfif" alt="Image4">
+                </div>
+            </div>
+        </section>
+
+        <!--Contact section-->
+
+        <section class="contact" id="contact">
+            <h1 class="heading"><span> Contact </span> Me </h1>
+            <div class="row">
+                <div class="content">
+                    <h3 class="title">Contact Information</h3>
+                    <div class="info">
+                        <h3><i class="fas fa-envelope"></i>anshigoyal152@gmail.com</h3>
+                        <h3><i class="fas fa-phone"></i>+91-8570881917</h3>
+                        <h3><i class="fab fa-linkedin"></i></i> linkedin <a href="https://www.linkedin.com/in/anshika-goyal-639886213" class="link"> Anshika Goyal </a></h3>
+                        <h3><i class="fas fa-map-marker-alt"></i>Gangoh, Dist.Saharanpur(UP), India - 247341</h3>
+                    </div>
+                </div>
+
+                <form action="">
+                    <input type="text" placeholder="Name" class="box">
+                    <input type="email" placeholder="E-mail" class="box">
+                    <input type="text" placeholder="Project" class="box">
+                    <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Write your Message here"></textarea>
+                    <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i> </button>
+                </form>
+            </div>
+        </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
